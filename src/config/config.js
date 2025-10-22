@@ -70,7 +70,8 @@ const config = {
       // Whether music plays automatically when website opens
       autoplay: true,
       // Whether music repeats continuously
-      loop: true
+      loop: true,
+      toastDuration: 3000
     },
 
     // List of bank accounts for digital envelope/gifts
