@@ -159,7 +159,9 @@ END:VCALENDAR`;
           </div>
           <div className="flex items-center space-x-3">
             <MapPin className="w-5 h-5 text-rose-500" />
-            <span>{eventData.location}</span>
+            <a href={eventData.maps_url} target="_blank" rel="noopener noreferrer">
+              <span>{eventData.location}</span>
+            </a>
           </div>
         </div>
       </motion.div>

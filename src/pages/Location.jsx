@@ -23,7 +23,7 @@ export default function Location() {
                         viewport={{ once: true }}
                         className="inline-block text-rose-500 font-medium"
                     >
-                        Lokasi Acara
+                        Event Location
                     </motion.span>
 
                     <motion.h2
@@ -33,7 +33,7 @@ export default function Location() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-serif text-gray-800"
                     >
-                        Lokasi
+                        Location
                     </motion.h2>
 
                     {/* Decorative Divider */}
@@ -53,7 +53,7 @@ export default function Location() {
                 {/* Location Content */}
                 <div className="max-w-6xl mx-auto grid md:grid-row-2 gap-8 items-center">
                     {/* Map Container */}
-                    <motion.div
+                    {/* <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
@@ -70,7 +70,7 @@ export default function Location() {
                             referrerPolicy="no-referrer-when-downgrade"
                             className="w-full h-full"
                         ></iframe>
-                    </motion.div>
+                    </motion.div> */}
 
                     {/* Venue Details */}
                     <motion.div
